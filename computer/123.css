@@ -1,0 +1,35 @@
+.violet{
+    background: linear-gradient(to right bottom, #483d5f, #2a2240);
+    color: white;
+    padding: 80px 0px;
+}
+h1{
+    margin-top: 70px;
+}
+button{
+    background-color: #ed9619;
+    font-weight: 900;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    border: 0;
+    color: white;
+}
+.image{
+    width: 100%;
+}
+.white{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.gray{
+background-color: #efecf4;
+padding: 50px 0;
+ 
+}
+    
+.footer{
+background-color:#201b2d;
+padding: 30px 0;
+color: white;
+}
