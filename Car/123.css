@@ -1,0 +1,19 @@
+.my-nav{
+    background-color: rgb(192, 185, 254);
+}
+.logo-img{
+    width: 50px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: black;
+    opacity: 1;
+}
+.image{
+    width: 100%;
+}
+.row{
+    margin-bottom: 20px;
+}
+.col-lg-7{
+    border: 1px solid lightgray;
+}
