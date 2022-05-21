@@ -1,0 +1,58 @@
+.navbar {
+    background-color: #a6d2d5;
+
+}
+
+.first-row {
+    text-align: center;
+    font-family: 'Yeseva One', cursive;
+    background-image: url(black-on-white_2.jpg);
+    color: white;
+    height: 300px;
+    background-size: cover;
+    background-position: 50% 50%;
+    align-items: center;
+}
+
+.color-fon {
+    background-color: #a6d2d5;
+}
+
+.col-collage {
+    background-image: url(collage.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+
+blockquote {
+    background-color: rgba(255, 249, 249, 0.703);
+    padding: 15px;
+    font-size: 1.2rem;
+
+}
+.third-row{
+    background-image: url(phone-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 60px 0;
+}
+.fourth-row{
+    background-color: #a6d2d5;
+    padding: 60px 0;
+}
+.fixed-row .col-12{
+    padding: 40px;
+    margin: 30px 0; 
+    background-color: rgba(255, 255, 255, 0.548);
+}
+.fixed-row{
+    background-image: url(snow.jpg);
+    background-size: cover;
+    padding: 80px 0;
+    background-attachment: fixed;
+}
+.black{
+    padding: 100px 0;
+    color: white;
+    background-color: black;
+}
