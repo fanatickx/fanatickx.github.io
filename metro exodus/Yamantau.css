@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.logo-img {
+    width: 100px;
+}
+
+.big-photo {
+    height: 800px;
+    background-image: url(Yamantau1.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+    color: lightgrey;
+    font-weight: 900;
+    align-items: center;
+    /* margin-top: 70px; */
+    margin-bottom: 70px;
+    box-shadow: 0px 0px 20px gray;
+    align-items: flex-start;/*верх серидина низ*/
+    justify-content: flex-start;/*ліво право або центер*/
+}
+
+.photo2 {
+    height: 800px;
+    background-image: url(Yamantau2.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+    color: lightgrey;
+    font-weight: 900;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    box-shadow: 0px 0px 20px gray;
+    align-items: flex-end;/*верх серидина низ*/
+    justify-content: flex-end;/*ліво право або центер*/
+}
+
+.photo3 {
+    height: 800px;
+    background-image: url(Yamantau3.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+    color: lightgrey;
+    font-weight: 900;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    box-shadow: 0px 0px 20px gray;
+    align-items: flex-end;/*верх серидина низ*/
+    justify-content: flex-start;/*ліво право або центер*/
+}
+
+.photo4 {
+    height: 800px;
+    background-image: url(Yamantau4.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    color: lightgrey;
+    font-weight: 900;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    box-shadow: 0px 0px 20px gray;
+    align-items: flex-start;/*верх серидина низ*/
+    justify-content: flex-end;/*ліво право або центер*/
+}
+.photo5{
+    height: 800px;
+    background-image: url(Yamantau5.webp);
+    background-size: cover;
+    background-position: 50% 50%;
+    color: lightgrey;
+    font-weight: 900;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    box-shadow: 0px 0px 20px gray;
+    align-items: flex-start;/*верх серидина низ*/
+    justify-content: flex-start;/*ліво право або центер*/
+}
+
+h1 {
+    font-size: 3rem;
+
+}
+.footer{
+    background-color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+footer .text{
+    color: gray;
+    text-align: right;
+}
+.socio-item{
+    font-size: 2.3rem;
+    color: lightgray;
+    text-decoration: none;
+    transition: 0.5s;
+    margin-right: 10px;
+}
+.socio-item:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 7px white;
+}
+.fon-text{
+    background-color: rgba(255, 255, 255, 0.212);
+    color: black;
+    padding: 20px;
+}
+.nav-item .nav-link{
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 1.3rem;
+}
