@@ -1,0 +1,425 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.menu-car-items{
+  width: 150px;
+  height: 150px;
+  background-position: 50% 50%;
+  background-size: cover;
+  transition: 0.5s;
+}
+.menu-car-items:hover{
+  transform: scale(1.2);
+}
+.one{
+  background-image: url(model.jpg);
+}
+.two{
+  background-image: url(2022-audi-s7-mmp-1-1623860448.jpg);
+}
+.ggg{
+  background-image: url(model\ \(1\).jpg);
+}
+.rrr{
+  background-image: url(model\ \(2\).jpg);
+}
+.ttt{
+  background-image: url(model\ \(3\).jpg);
+}
+.eee{
+  background-image: url(model\ \(4\).jpg);
+}
+.hhh{
+  background-image: url(body-image.jpg);
+}
+.jjj{
+  background-image: url(model\ \(5\).jpg);
+}
+.kkk{
+  background-image: url(model\ \(6\).jpg);
+}
+.lll{
+  background-image: url(model\ \(7\).jpg);
+}
+.ooo{
+  background-image: url(body-image\ \(1\).jpg);
+}
+.bbb{
+  background-image: url(model\ \(14\).jpg);
+}
+.vvv{
+  background-image: url(model\ \(8\).jpg);
+}
+.ccc{
+  background-image: url(model\ \(9\).jpg);
+}
+.zzz{
+  background-image: url(model\ \(10\).jpg);
+}
+.xxx{
+  background-image: url(model\ \(11\).jpg);
+}
+.aaa{
+  background-image: url(model\ \(12\).jpg);
+}
+.qqq{
+  background-image: url(model\ \(13\).jpg);
+}
+.socio-item{
+text-decoration: none;
+font-size: 2rem;
+color: rgb(216, 193, 193);
+margin: 10px;
+}
+.socio-item:hover{
+  color: #f2f2f2;
+}
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Стилі для шапки
+заголовка */
+header {
+    background-color: #333;
+    padding: 20px;
+    }
+    
+    header h1 {
+    color: #fff;
+    font-size: 36px;
+    margin: 0;
+    }
+    
+    /* Стилі для навігації */
+    nav {
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    }
+    
+    nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    }
+    
+    nav ul li {
+    display: inline-block;
+    }
+    
+    nav ul li a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+    }
+    
+    nav ul li a:hover {
+    color: #555;
+    }
+    
+    /* Стилі для секцій */
+    section {
+    padding: 50px 0;
+    }
+    
+    .content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    }
+    
+    section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    }
+    
+    section p {
+    font-size: 18px;
+    line-height: 1.5;
+    }
+    
+    /* Стилі для галереї */
+    .image-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    }
+    
+    .image-gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    }
+    
+    .image-gallery img:hover {
+    transform: scale(1.05);
+    }
+    
+    /* Стилі для контактів */
+    #contact p {
+    font-size: 18px;
+    }
+    
+    /* Стилі для підвалу */
+    footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    footer p {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    }
+    
+    /* Медіа-запити для адаптивного дизайну */
+    @media screen and (max-width: 768px) {
+    .content {
+    padding: 0 20px;
+    }
+
+    .image-gallery img {
+        width: 100%;
+        height: auto;
+    }
+    
+}
+* {
+    box-sizing: border-box;
+}
+*{
+    box-sizing: border-box;
+}
+.long-slider{
+    position: relative;
+    height: 200px;
+    width: 100%;
+    /* overflow: hidden; */
+    /* transform: translateX(); */
+}
+.arrow-left, .arrow-right{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 5;
+    background-color: rgba(255, 255, 255, 0.356);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    transition: 0.8s;
+    font-size: 4em;
+}
+.arrow-left:hover, .arrow-right:hover{
+    background-color: rgba(134, 131, 131, 0.658);
+
+}
+.arrow-right{
+    right: 0;
+}
+
+.item-wrap{
+    /* position: absolute; */
+    display: flex;
+    height: 200px;
+    transition: 0.7s ease-out;
+    max-width: 100%;
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.slider-item{
+    /* width: 450px; */
+    margin-left: 5px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+.item-wrap img{
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/* Works on Chrome, Edge, and Safari */
+
+.item-wrap::-webkit-scrollbar {
+    height: 4px;               /* висота/ширина скрола */
+  }
+  
+  .item-wrap::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0);        /*смужка */
+  }
+  
+  .item-wrap::-webkit-scrollbar-thumb { /*те, що їздить */
+    background-color: rgb(218, 218, 218);    
+    border-radius: 20px;      
+    /* border: 3px solid rgb(163, 163, 163);  */
+  }
+  .item-wrap::-webkit-scrollbar-thumb:hover { /*те, що їздить */
+    background-color: rgb(0, 0, 0);    
+  
+  }
+/* Works on Firefox */
+.item-wrap{
+    scrollbar-width: thin;
+    scrollbar-color: blue orange;
+  }
+
+
+.pdoduct-card{
+    padding: 5px;
+    margin-left: 20px;
+    width: 300px;
+    background-color: rgb(228, 228, 228);
+    transition: 0.8s;
+ }
+.pdoduct-card:hover{
+    transform: scale(1.1);
+    background-color: rgb(247, 244, 244);
+
+ }
+.tel-btn{
+     font-size: 1.1rem;
+     border: 2px solid rgb(0, 0, 0);
+ }
+ .tel-btn:hover{
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+.menu-car{
+    background-color: rgb(64, 64, 64);
+    padding: 5px 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menu-car-items{
+    background-color: rgb(182, 182, 182);
+    padding: 15px;
+    margin: 10px;
+}
+.menu-car  a{
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.menu-car-items:hover{
+    background-color: rgb(88, 88, 88);
+
+}
+.menu-car:hover a{
+   /* color: rgb(184, 181, 181); */
+
+}
+.first-c{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 1px solid gray;
+}
+.first-c-foto{
+    width: 50%;
+    text-align: right;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.item-car{
+    border-bottom: 1px solid gray;
+padding: 15px;
+}
+.item-car p{
+    margin-bottom: 1px;
+}
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    height: 100vh;
+    width: 100%;
+    z-index: 1000;
+    transition: 1.8s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.preloader h2 {
+    font-size: 4em;
+    letter-spacing: 20px;
+    animation: preloader-anim 2s infinite alternate;
+}
+.loader,
+.loader:before,
+.loader:after {
+  background: #5d6f82;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+.loader {
+  color: #68798c;
+  text-indent: -9999em;
+  margin: 88px auto;
+  position: relative;
+  font-size: 11px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.loader:before,
+.loader:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+.loader:before {
+  left: -1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader:after {
+  left: 1.5em;
+}
+@-webkit-keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+@keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+
